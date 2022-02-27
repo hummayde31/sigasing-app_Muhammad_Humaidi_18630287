@@ -1,8 +1,8 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
    <a href="#" class="brand-link">
-   <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image 
+      <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image 
       img-circle elevation-3" style="opacity: .8">
-   <span class="brand-text font-weight-light">SIGASING</span>
+      <span class="brand-text font-weight-light">SIGASING</span>
    </a>
    <div class="sidebar">
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
@@ -22,6 +22,29 @@
                      Home
                   </p>
                </a>
+            </li>
+            <li class="nav-item">
+               <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-money-bill"></i>
+                  <p>
+                     Penggajian
+                     <i class="fas fa-angle-left right"></i>
+                  </p>
+               </a>
+               <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                     <a href="?page=penggajianrekap" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Rekap Gaji</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="#" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Riwayat Gaji</p>
+                     </a>
+                  </li>
+               </ul>
             </li>
             <li class="nav-item">
                <a href="#" class="nav-link">
