@@ -2,8 +2,8 @@
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
 
-    $dabase = new Database();
-    $db = $dabase->getConnection();
+    $database = new Database();
+    $db = $database->getConnection();
 
     $deleteSql = "DELETE FROM lokasi WHERE id = ?";
     $stmt = $db->prepare($deleteSql);
